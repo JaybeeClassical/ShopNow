@@ -1,0 +1,15 @@
+.Header {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 2rem;
+	position: sticky;
+
+	.input_search {
+		padding: 0.33rem;
+		border: 0.34rem solid gray;
+		border-radius: 9px;
+		font-size: 1rem;
+		width: 25rem;
+	}
+}
