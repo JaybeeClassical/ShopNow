@@ -5,11 +5,55 @@
 	padding: 2rem;
 	position: sticky;
 
+	@media screen and(max-width: 768px) {
+		padding: 0rem;
+	}
+
+	.Header_logo {
+		font-size: 30px;
+		font-weight: 800;
+		color: rgb(54, 53, 53);
+		text-transform: uppercase;
+
+		@media screen and(max-width: 768px) {
+			display: none;
+		}
+	}
+
 	.input_search {
 		padding: 0.33rem;
 		border: 0.34rem solid gray;
 		border-radius: 9px;
 		font-size: 1rem;
 		width: 25rem;
+
+		@media screen and(max-width: 768px) {
+			display: none;
+		}
+	}
+}
+
+.Header_account__display {
+	@media screen and(max-width: 768px) {
+		display: none;
+	}
+}
+
+.Header_hamburger {
+	display: none;
+
+	@media screen and(max-width: 768px) {
+		position: fixed;
+		right: 5%;
+		cursor: pointer;
+		display: block;
+		margin-top: 10px;
+
+		.hamburger_line {
+			width: 30px;
+			height: 3px;
+			background: #0f0f0f;
+			margin: 5px;
+		}
 	}
 }

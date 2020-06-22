@@ -1,5 +1,8 @@
 .Homepage_first__grid {
 	flex-basis: 20.5%;
+	@media screen and(max-width: 768px) {
+		display: none;
+	}
 }
 
 .Homepage_first__gridItem {

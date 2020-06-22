@@ -14,6 +14,12 @@ const Header = () => {
 					/>
 				</div>
 				<div className={Styles.Header_account__display}>Logged in US</div>
+
+				<div className={Styles.Header_hamburger}>
+					<div className={Styles.hamburger_line}></div>
+					<div className={Styles.hamburger_line}></div>
+					<div className={Styles.hamburger_line}></div>
+				</div>
 			</div>
 		</div>
 	);
