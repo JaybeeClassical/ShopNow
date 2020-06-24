@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../pigination/pigination.module.scss";
+import Styles from "../pagination/pagination.module.scss";
 
 const Pigination = () => {
 	return (

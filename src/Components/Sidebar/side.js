@@ -1,6 +1,10 @@
 import React from "react";
 import Styles from "../Sidebar/sidebar.module.scss";
-import knitwear from "../../Assets/homepage.svg";
+import Trouser from "../../Assets/trouser.jpg";
+import Shoe from "../../Assets/shoe.png";
+import Top from "../../Assets/top.jpg";
+import Sweater from "../../Assets/sweater.jpg";
+import Jacket from "../../Assets/jacket_image.jpg";
 
 const Sidebar = () => {
 	return (
@@ -10,19 +14,35 @@ const Sidebar = () => {
 			</div>
 			<div className={Styles.Homepage_first__gridItem}>
 				<h4>New In</h4>
-				<img src={knitwear} alt='knitwear' style={{width: "40px"}} />
+				<img
+					src={Shoe}
+					alt='knitwear'
+					style={{width: "40px", borderRadius: "0px 12px 12px 0px"}}
+				/>
 			</div>
 			<div className={Styles.Homepage_first__gridItem}>
 				<h4>Coats</h4>
-				<img src={knitwear} alt='knitwear' style={{width: "40px"}} />
+				<img
+					src={Top}
+					alt='knitwear'
+					style={{width: "40px", borderRadius: "0px 12px 12px 0px"}}
+				/>
 			</div>
 			<div className={Styles.Homepage_first__gridItem}>
 				<h4>tops</h4>
-				<img src={knitwear} alt='knitwear' style={{width: "40px"}} />
+				<img
+					src={Sweater}
+					alt='knitwear'
+					style={{width: "40px", borderRadius: "0px 12px 12px 0px"}}
+				/>
 			</div>
 			<div className={Styles.Homepage_first__gridItem}>
 				<h4>knitwear</h4>
-				<img src={knitwear} alt='knitwear' style={{width: "40px"}} />
+				<img
+					src={Trouser}
+					alt='knitwear'
+					style={{width: "40px", borderRadius: "0px 12px 12px 0px"}}
+				/>
 			</div>
 		</div>
 	);

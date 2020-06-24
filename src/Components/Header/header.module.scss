@@ -1,9 +1,18 @@
 .Header {
+	// display: flex;
+	// margin: 0 auto;
+	// justify-content: space-between;
+	// padding: 2rem;
+	// position: fixed;
+
+	position: fixed;
+	z-index: 1;
+	width: 74vw;
+	padding-top: 2.625rem;
+	padding-bottom: 2.325rem;
 	display: flex;
 	margin: 0 auto;
 	justify-content: space-between;
-	padding: 2rem;
-	position: sticky;
 
 	@media screen and(max-width: 768px) {
 		padding: 0rem;
