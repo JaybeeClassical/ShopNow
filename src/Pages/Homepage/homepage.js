@@ -4,11 +4,7 @@ import Footer from "../../Components/Footer/footer";
 import Styles from "../Homepage/homepage.module.scss";
 import Sidebar from "../../Components/Sidebar/side";
 import Pigination from "../../Components/pagination/pagination";
-import Trouser from "../../Assets/trouser.jpg";
-import Shoe from "../../Assets/shoe.png";
-import Top from "../../Assets/top.jpg";
-import Sweater from "../../Assets/sweater.jpg";
-import Jacket from "../../Assets/jacket_image.jpg";
+import Items from "../../Components/Items/items";
 
 function Homepage() {
 	return (
@@ -35,69 +31,7 @@ function Homepage() {
 						<h1 className={Styles.Homepage_second__gridText}>Coats</h1>
 						<p className={Styles.Homepage_viewMore}>View more</p>
 						<Pigination />
-						<div className={Styles.Homepage_item}>
-							<div className={Styles.Homepage_secondGrid__boxes}>
-								<img
-									src={Jacket}
-									alt='female jacket'
-									className={Styles.Homepage_secondGrid__img}
-								/>
-								<h3 className={Styles.Homepage_secondGrid__text}>
-									Women's Jacket
-								</h3>
-							</div>
-							<div className={Styles.Homepage_secondGrid__boxes}>
-								<img
-									src={Trouser}
-									alt='female trouser'
-									className={Styles.Homepage_secondGrid__img}
-								/>
-								<h3 className={Styles.Homepage_secondGrid__text}>
-									Women's Trousers
-								</h3>
-							</div>
-							<div className={Styles.Homepage_secondGrid__boxes}>
-								<img
-									src={Shoe}
-									alt='female shoe'
-									className={Styles.Homepage_secondGrid__img}
-								/>
-								<h3 className={Styles.Homepage_secondGrid__text}>
-									Women's Shoe
-								</h3>
-							</div>
-
-							<div className={Styles.Homepage_secondGrid__boxes}>
-								<img
-									src={Jacket}
-									alt='female jacket'
-									className={Styles.Homepage_secondGrid__img}
-								/>
-								<h3 className={Styles.Homepage_secondGrid__text}>
-									Women's Jacket
-								</h3>
-							</div>
-							<div className={Styles.Homepage_secondGrid__boxes}>
-								<img
-									src={Sweater}
-									alt='female sweater'
-									className={Styles.Homepage_secondGrid__img}
-								/>
-								<h3 className={Styles.Homepage_secondGrid__text}>
-									Women's Sweater
-								</h3>
-							</div>
-							<div className={Styles.Homepage_secondGrid__boxes}>
-								<img
-									src={Top}
-									alt='female top'
-									className={Styles.Homepage_secondGrid__img}
-								/>
-								<h3 className={Styles.Homepage_secondGrid__text}>
-									Women's Top
-								</h3>
-							</div>
-						</div>
+						<Items />
 						<p className={Styles.Homepage_items__viewMore}>View more</p>
 					</div>
 				</div>

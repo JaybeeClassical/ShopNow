@@ -1,0 +1,38 @@
+.Homepage_item {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Homepage_secondGrid__boxes {
+	width: 90%;
+	box-shadow: 0px 16px 25px rgba(90, 87, 87, 0.25);
+	background-color: #bbbbbb;
+	margin-bottom: 16px;
+	border-radius: 25px;
+	// padding: 0.23rem;
+	position: relative;
+	height: 320px;
+	z-index: 1;
+
+	.Homepage_secondGrid__img {
+		width: 100%;
+		height: 270px;
+		border-radius: 25px 25px 0px 0px;
+	}
+
+	.Homepage_secondGrid__title {
+		position: absolute;
+		top: 128px;
+		bottom: 0px;
+		left: 60px;
+		right: 0;
+		cursor: pointer;
+		color: rgb(212, 167, 175);
+		font-size: 1rem;
+	}
+
+	::hover {
+		transition: ease-in 0.2s;
+	}
+}
