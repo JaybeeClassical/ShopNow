@@ -1,7 +1,13 @@
-.Homepage_footer__wrapper {
-	height: 80px;
+.footer__wrapper {
 	background: black;
 	color: white;
 	padding: 3rem;
 	margin-top: 6rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.Footer__createBy {
+	text-align: center;
+	background: black;
+	color: white;
 }

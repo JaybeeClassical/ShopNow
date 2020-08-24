@@ -1,5 +1,4 @@
-import {library} from "@fortawesome/fontawesome-svg-core";
-// import {faMoneyBill} from "@fortawesome/pro-solid-svg-icons";
+// import {library} from "@fortawesome/fontawesome-svg-core";
 // import {faCode, faHighlighter} from "@fortawesome/free-regular-svg-icons";
 // import {
 // 	faGithubAlt,
@@ -7,5 +6,3 @@ import {library} from "@fortawesome/fontawesome-svg-core";
 // 	faFacebook,
 // 	faTwitter,
 // } from "@fortawesome/free-brands-svg-icons";
-
-// library.add(faMoneyBill, faCode, faHighlighter);
