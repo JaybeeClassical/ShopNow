@@ -1,13 +1,18 @@
 .footer__wrapper {
-	background: black;
+	background: rgba(95, 16, 91, 0.688);
 	color: white;
-	padding: 3rem;
+	padding: 3rem 7rem;
 	margin-top: 6rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 .Footer__createBy {
 	text-align: center;
-	background: black;
+	background: rgba(95, 16, 91, 0.688);
 	color: white;
+}
+
+.Footer__paragraph{
+	padding-bottom: 40px;
 }

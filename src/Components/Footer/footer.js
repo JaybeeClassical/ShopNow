@@ -26,7 +26,9 @@ const Footer = () => {
 					<p>Privacy Policy</p>
 				</div>
 				<div className={Styles.footer_column}>
-					<i></i>
+					<h3>Further Information</h3>
+					<p>Terms & Conditions</p>
+					<p>Privacy Policy</p>
 				</div>
 			</div>
 			<div className={Styles.Footer__createBy}>
